@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeepRunning", "KeepRunning\KeepRunning.csproj", "{78882F7A-179C-4423-83A1-6722D4266955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllianceBot", "AllianceBot\AllianceBot.csproj", "{63E01B8D-962B-41A7-AF04-A12BB7101B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78882F7A-179C-4423-83A1-6722D4266955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78882F7A-179C-4423-83A1-6722D4266955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78882F7A-179C-4423-83A1-6722D4266955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78882F7A-179C-4423-83A1-6722D4266955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E01B8D-962B-41A7-AF04-A12BB7101B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E01B8D-962B-41A7-AF04-A12BB7101B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E01B8D-962B-41A7-AF04-A12BB7101B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E01B8D-962B-41A7-AF04-A12BB7101B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E064E8-D490-4EE9-A3C1-6C1CA59DB174}
+	EndGlobalSection
+EndGlobal

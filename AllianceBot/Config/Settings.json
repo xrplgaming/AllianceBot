@@ -1,0 +1,30 @@
+﻿{
+  "RestClientAddress": "https://xumm.app/api/v1", //Xumm API
+  "ApiKey": "", // API Key which can be obtained from the xumm Developer Console. KEEP THIS PRIVATE AND SAFE!
+  "ApiSecret": "", // API Secret which can be obtained from the xumm Developer Console. KEEP THIS PRIVATE AND SAFE!
+  "WebSocketURL": "wss://xrplcluster.com/", //Main Net: 	wss://s1.ripple.com/  wss://xrplcluster.com/  Test Net: wss://s.altnet.rippletest.net/
+  "RewardAddress": "", //Address that holds the tokens for rewards
+  "RewardSecret": "", //Secret to the rewards address. KEEP THIS PRIVATE AND SAFE!
+  "CurrencyCode": "", //ticker symbol of token
+  "IssuerAddress": "", //Address that issued the tokens for rewards
+  "STXCurrencyCode": "", //ticker symbol of STX token
+  "STXIssuerAddress": "", //Address that issued the tokens for staking
+  "USDCurrencyCode": "", //ticker symbol of USD (Gatehub) token
+  "USDIssuerAddress": "", //Address that issued the tokens for USD
+  "GuildID": "", //Discord server ID
+  "BotToken": "", //Discord bot token. KEEP THIS PRIVATE AND SAFE!
+  "TransferFee": 0, //Usually not applicable. Leave at 0 if unsure. TransferRate of your token in %, must be between 0 and 100
+  "FaucetTokenAmt": 10, //amount to send in each faucet txn
+  "RewardTokenAmt": 100, //amount to send in each rewards txn
+  "MaxTipTokenAmt": 1000, //max amount to send in each rewards txn
+  "TipTokenAmt": 0.01, //amount to send in each tip txn
+  "AccountLinesThrottle": 10, //Number of seconds between request calls. Recommended not to change. Lower settings could result in a block from web service hosts.
+  "TxnThrottle": 1, //Number of seconds between request calls. Recommended not to change. Lower settings could result in a block from web service hosts.
+  "FeeMultiplier": 1.1, //How many times above average fees to pay for reliable transactions
+  "MaximumFee": 11, //Maximum number of drops willing to pay for each transaction
+  "MinCommandTime": 10.0, //Minimum time in seconds between commands
+  "MinTipTime": 60.0, //Minimum time in seconds between tip commands
+  "MinFaucetTime": 24.0, //Minimum time in hours between tip commands
+  "ThreadTimeInDays": 30.0, //Expiration of a governance thread in days
+  "IdleThreadTimeToDelete": 7.0 //Deletion of an idle governance thread in days
+}
